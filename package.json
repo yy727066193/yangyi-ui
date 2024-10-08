@@ -1,0 +1,22 @@
+{
+  "name": "yangyi-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lib": "vue-cli-service build --target lib --dest yangyi-ui packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.4.3",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
